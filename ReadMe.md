@@ -15,12 +15,12 @@ pip install -r requirements.txt
 
 ### Examples
 Example of subtitle files with the name of the video: \
-![alt text](Before_with_name.JPG "Before_with_name")
-![alt text](Console_with_name.JPG "Console_with_name")
-![alt text](After.JPG "After")
+![alt text](ReadMeMedia/Before_with_name.JPG "Before_with_name")
+![alt text](ReadMeMedia/Console_with_name.JPG "Console_with_name")
+![alt text](ReadMeMedia/After.JPG "After")
 \
 \
 Example of subtitle files without the name of the video: \
-![alt text](Before_without_name.JPG "Before_without_name")
-![alt text](Console_without_name.JPG "Console_without_name")
-![alt text](After.JPG "After")
+![alt text](ReadMeMedia/Before_without_name.JPG "Before_without_name")
+![alt text](ReadMeMedia/Console_without_name.JPG "Console_without_name")
+![alt text](ReadMeMedia/After.JPG "After")
