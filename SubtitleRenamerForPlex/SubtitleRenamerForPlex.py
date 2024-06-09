@@ -11,9 +11,11 @@ validation_recommended = False
 try:
     directory = sys.argv[1]
     video_name = sys.argv[2]
+    bypass_exit_msg = sys.argv[3] or "False"
 except IndexError:  #If no argument is passed, ask for parameters
     directory = input("Enter directory path (i.e. C:/myfolder/subs): ")
     video_name = input("Enter the movie/episode file name. Just tap the Enter key if the subtitle files already have the movie/episode name in the file name: ")
+    bypass_exit_msg = "False"
 
 #debug
 #directory = "H:/rename/"
@@ -46,5 +48,7 @@ for filename in filter(lambda f: f.endswith(tuple(sub_extensions)), os.listdir(d
 
 if validation_recommended == True:
     print("Please validate the subtitles, there may be multiple files with the same language. Plex may not recognized them all.")
-input("Press Enter to exit")
+
+if bypass_exit_msg == "False":
+    input("Press Enter to exit")
     

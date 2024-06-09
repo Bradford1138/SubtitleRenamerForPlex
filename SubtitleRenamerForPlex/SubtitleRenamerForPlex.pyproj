@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>04ff4884-97e9-4463-a5e0-ca7a3997968d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SubtitleRenamerForPlex.py</StartupFile>
+    <StartupFile>BySeason.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BySeason.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SubtitleRenamerForPlex.py" />
   </ItemGroup>
   <ItemGroup>
