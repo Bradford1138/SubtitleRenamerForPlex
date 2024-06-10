@@ -24,3 +24,19 @@ Example of subtitle files without the name of the video: \
 ![alt text](ReadMeMedia/Before_without_name.JPG "Before_without_name")
 ![alt text](ReadMeMedia/Console_without_name.JPG "Console_without_name")
 ![alt text](ReadMeMedia/After.JPG "After")
+
+Note: the script "SubtitleRenamerForPlex.py" can be called with parameters: 
+1. Directory path
+2. Episode file name (Without extension)
+3. Bypass exit message (Optional, default "False")
+
+### By Season
+
+If multiple sub folders need to be looped in and the episode name have the same name as the sub folder, the script "BySeason.py" can be used. Episode file can even be in the parent folder. i.e. \
+Before: \
+![alt text](ReadMeMedia/Season_folder_before.JPG "Before by season") \
+Running script: \
+![alt text](ReadMeMedia/Season_folder_script.JPG "By season script") \
+After: \
+![alt text](ReadMeMedia/Season_folder_after.JPG "After by season") 
+

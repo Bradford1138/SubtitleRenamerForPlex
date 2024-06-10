@@ -9,9 +9,13 @@ sub_extensions = [".srt", ".ass", ".ssa", ".smi", ".vtt"]
 validation_recommended = False
 
 try:
+    bypass_exit_msg = "False"
+    if (len(sys.argv) == 4):
+        bypass_exit_msg = sys.argv[3]
+
     directory = sys.argv[1]
     video_name = sys.argv[2]
-    bypass_exit_msg = sys.argv[3] or "False"
+        
 except IndexError:  #If no argument is passed, ask for parameters
     directory = input("Enter directory path (i.e. C:/myfolder/subs): ")
     video_name = input("Enter the movie/episode file name. Just tap the Enter key if the subtitle files already have the movie/episode name in the file name: ")
@@ -49,6 +53,6 @@ for filename in filter(lambda f: f.endswith(tuple(sub_extensions)), os.listdir(d
 if validation_recommended == True:
     print("Please validate the subtitles, there may be multiple files with the same language. Plex may not recognized them all.")
 
-if bypass_exit_msg == "False":
+if bypass_exit_msg != "True":
     input("Press Enter to exit")
     
