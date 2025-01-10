@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AssToSrtWithoutFormat.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="BySeason.py">
       <SubType>Code</SubType>
     </Compile>
