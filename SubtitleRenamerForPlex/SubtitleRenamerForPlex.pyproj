@@ -27,6 +27,9 @@
     <Compile Include="BySeason.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="RenameFromVideoNamepy.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SubtitleRenamerForPlex.py" />
   </ItemGroup>
   <ItemGroup>
