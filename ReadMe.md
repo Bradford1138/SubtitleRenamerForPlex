@@ -1,4 +1,4 @@
-# SubtitleRenamerForPlex
+# Subtitle Renamer For Plex
 
 This program rename the subtitle files so Plex can recognized the language assossiated to the video.
 If you have multiple files with the same language, you can manually choose which one you want to keep and delete the other to be sure to keep the right one or this program will increment a number at the end. Plex may not recognized all files.
